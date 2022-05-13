@@ -8,8 +8,8 @@ const App = () => {
       <GlobalStyle />
       <div className="App">
         <Section className="Hero">
-          <Button label="First button"  />
-          <Button label="Second button" background="secondary" />
+          <Button label="Primary button"  />
+          <Button label="Secondary button" background="secondary" />
         </Section>
         <SectionInfo className="Info">
           <h1>Info stuff!</h1>
