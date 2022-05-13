@@ -1,12 +1,17 @@
 import React from 'react';
-import { GlobalStyle } from './styles';
+import { GlobalStyle, Section, SectionInfo } from './styles';
 
 const App = () => {
   return (
       <>
       <GlobalStyle />
       <div className="App">
-        <h1>City of Vancouver coming through!</h1>
+        <Section className="Hero">
+          <h1>Hero stuff!</h1>
+        </Section>
+        <SectionInfo className="Info">
+          <h1>Info stuff!</h1>
+        </SectionInfo>
       </div>
       </>
   );

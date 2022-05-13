@@ -1,7 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-
     body {
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,4 +14,14 @@ export const GlobalStyle = createGlobalStyle`
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
     }
+`;
+
+export const Section = styled.section`
+  background-color: #0d008a;
+  width: 100vw;
+  padding: 10vh 0;
+`;
+
+export const SectionInfo = styled(Section)`
+  background-color: #0caa6d;
 `;
