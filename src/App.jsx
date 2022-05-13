@@ -1,5 +1,6 @@
 import React from 'react';
 import { GlobalStyle, Section, SectionInfo } from './styles';
+import Button from './components/Button/Button';
 
 const App = () => {
   return (
@@ -7,7 +8,8 @@ const App = () => {
       <GlobalStyle />
       <div className="App">
         <Section className="Hero">
-          <h1>Hero stuff!</h1>
+          <Button label="First button"  />
+          <Button label="Second button" background="secondary" />
         </Section>
         <SectionInfo className="Info">
           <h1>Info stuff!</h1>

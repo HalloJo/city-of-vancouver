@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Section = styled.section`
-  background-color: #0d008a;
+  background-color: #d2d2d3;
   width: 100vw;
   padding: 10vh 0;
 `;
