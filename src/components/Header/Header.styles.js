@@ -5,6 +5,9 @@ export const HeaderContainer = styled.header`
   width: 100%;
   height: auto;
   background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export const Logo = styled(LogoCOV)`

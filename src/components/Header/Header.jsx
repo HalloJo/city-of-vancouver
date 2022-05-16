@@ -1,11 +1,12 @@
 import React from 'react';
-import menu from "../../data/navigation"
+import SearchBar from "../SearchBar/SearchBar"
 import { HeaderContainer, Logo } from './Header.styles';
 
 const Header = () => {
     return(
         <HeaderContainer>  
           <Logo />
+          <SearchBar />
           {/* <nav>
             <ul>
               {menu.map((item) => (
